@@ -904,7 +904,7 @@ def setup(app):
     app.add_config_value('pdf_page_template','cutePage', None)
     app.add_config_value('pdf_invariant',False, None)
     app.add_config_value('pdf_real_footnotes','False', None)
-    app.add_config_value('pdf_use_toc','True', None)
+    app.add_config_value('pdf_use_toc',True, None)
     app.add_config_value('pdf_toc_depth',9999, None)
     app.add_config_value('pdf_use_numbered_links',False, None)
     app.add_config_value('pdf_fit_background_mode',"scale", None)
